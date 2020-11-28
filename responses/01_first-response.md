@@ -1,18 +1,18 @@
-# Title
+# The first step!
 
-This is the paragraph to would describe the concept. It may link to other resources, or include images. Try to avoid _too_ much information and _too_ many external links. The purpose of these paragraphs is to give the user the information they need to complete the activity, understand what they're doing, and understand why they're doing it.
+Blah blah blahdieblah. This is the paragraph to would describe the concept. It may link to other resources, or include images. Try to avoid _too_ much information and _too_ many external links. The purpose of these paragraphs is to give the user the information they need to complete the activity, understand what they're doing, and understand why they're doing it.
 
 ### More detail 
 
 If there are concepts that should be described separately, they might belong in a subparagraph section like this one.
 
-## Step X: Description
+## Step 1: The beginning of all things.
 
 Here, we'll describe generally what the user is about to do.
 
 ### :keyboard: Activity: Specific description
 
-1. Step 1 in short sentence
+1. This is the beginning of all things for the start.
 2. Step 2 in short sentence
 3. Step 3 in short sentence
 
