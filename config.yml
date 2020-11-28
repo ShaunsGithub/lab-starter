@@ -25,11 +25,16 @@ before:
 
 steps:
 # Step 1: The beginning
-- title: In the beginning # the title of the step, shown to the learner in the course progress page
-  description: The start of the course. # a description of the step, shown to the learner in the course progress page
-  event: pull_request # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
+- title: Assign yourself
+  description: Assign the first issue to yourself.
+  event: issues.assigned
+  link: 'https://github.com/ShaunsGithub/lab-starter/issues/1'
   actions: # a list of the actions that will occur when the step is triggered by an event
-  - type: # the type of action, full list at https://lab.github.com/docs/actions
+  - type: gate
+    left: '%payload.pull_request.title%'
+    operator: ===
+    right: Add name to README
+    
 
 # Step 2: After the beginning
 # - title: After starting # the title of the step, shown to the learner in the course progress page
